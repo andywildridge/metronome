@@ -40,7 +40,7 @@ export default {
           E2: "metro11.mp3",
           F2: "metro12.mp3",
         },
-        baseUrl: "/assets/",
+        baseUrl: "/metronome/assets/",
         onload: () => {
           console.log("sampletastic");
           this.ready = true;
