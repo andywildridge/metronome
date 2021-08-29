@@ -1,22 +1,25 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png" />
-  <HelloWorld msg="Welcome to Your Vue.js App" />
+  <Metronome />
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld.vue";
+import Metronome from "./components/Metronome.vue";
 
 export default {
   name: "App",
   components: {
-    HelloWorld,
+    Metronome,
   },
 };
 </script>
 
 <style>
+@font-face {
+  font-family: Balance;
+  src: url(./assets/balance.otf) format("opentype");
+}
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: Balance, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
